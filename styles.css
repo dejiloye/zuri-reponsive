@@ -24,6 +24,7 @@ ul.nav-links {
     display: flex;
     margin: 0;
     padding: 0;
+    
 }
 
 ul li {
@@ -47,10 +48,18 @@ ul li a:hover {
 @media screen and (max-width: 768px) {
 
 div.nav-bar {
-    display: flex;
+    display: none;
     justify-content: space-between;
     padding: 1rem;
     width: 100vw;
+    
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
 }
 
 div.logo {
@@ -58,6 +67,7 @@ div.logo {
 }
 
 ul.nav-links {
+    
     flex-direction: column;
 }
 
@@ -289,11 +299,24 @@ div.box1 h5 {
     display: flex;
     flex-direction: column;
     }
+
     div.box1 {
     width: 300px;
     height: 230px;
     }
+
+    div.box2 {
+        width: 300px;
+        height: 230px;
     }
+    div.box3 {
+        width: 300px;
+        height: 230px;
+    }
+
+
+    }
+
 div.gallery-section {
     background: #fff;
     padding: 4rem;
